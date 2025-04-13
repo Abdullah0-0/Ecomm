@@ -179,6 +179,36 @@ background-color: rgba(245, 178, 178, 0.7);
   transform: translateY(70px);
   transition: 0.3s ease;
 }
+
+#new .one .details button:hover{
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+#new .one:nth-child(1) .details  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column ;
+  align-items: flex-start;
+  text-align: start;
+}
+
+#new .one:nth-child(2) .details  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column ;
+  align-items: center;
+  text-align: center;
+}
+
+#new .one:nth-child(3) .details  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column ;
+  align-items: flex-end;
+  text-align: end;
+}
+
+
 /* 
 .nav-links ul li a{
   text-decoration: none;
