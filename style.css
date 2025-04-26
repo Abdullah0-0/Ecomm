@@ -91,6 +91,12 @@ hr {
 navbar .navbar-nav .nav-link:active{
   color: coral;
 }
+
+.nav-link.active {
+  color: coral !important;
+}
+
+
 .navbar i{
   font-size: 1.2rem; 
   padding: 0 7px;
